@@ -1,0 +1,16 @@
+{
+  "name": "pretty-colors",
+  "version": "0.0.1",
+  "description": "",
+  "main": "/dist/colors.json",
+  "scripts": {
+    "start": "babel-node get-colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riophae Lee <riophaelee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "writefile": "^0.2.8",
+    "babel": "^5.6.3"
+  }
+}

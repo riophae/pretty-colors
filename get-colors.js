@@ -46,7 +46,7 @@ let load = (maxId) => {
 
       if (color.length === 3) {
         color = color.split('').map((letter) => {
-          return letter + letter;
+          return letter.repeat(2);
         }).join('');
       }
 

@@ -1,11 +1,10 @@
 {
   "name": "pretty-colors",
   "version": "0.0.1",
-  "description": "",
-  "main": "/dist/colors.json",
+  "description": "Pretty colors from @RGB_Colours",
+  "main": "dist/colors.json",
   "scripts": {
-    "start": "babel-node get-colors",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node get-colors"
   },
   "author": "Riophae Lee <riophaelee@gmail.com>",
   "license": "MIT",

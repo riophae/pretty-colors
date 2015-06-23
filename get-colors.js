@@ -1,7 +1,7 @@
 let writefile = require('writefile');
 let Ripple = require('../Ripple');
 
-let credentials = require('./credentials.json');
+import credentials from './credentials.json';
 
 Ripple.setupConsumer(credentials.consumer);
 

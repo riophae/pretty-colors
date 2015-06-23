@@ -27,10 +27,10 @@ let load = (maxId) => {
     }
 
     data.forEach((tweet) => {
-      let _, colorName, color, comment;
+      let colorName, color, comment;
 
-      [ _, colorName ] = tweet.text.match(/"(.+)"/) || [];
-      [ _, color ] = tweet.text.match(/#([a-f0-9]{6}|[a-f0-9]{3})/) || [];
+      [ , colorName ] = tweet.text.match(/"(.+)"/) || [];
+      [ , color ] = tweet.text.match(/#([a-f0-9]{6}|[a-f0-9]{3})/) || [];
 
       if (!colorName || !color) {
         return;

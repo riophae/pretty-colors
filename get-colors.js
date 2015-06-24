@@ -50,6 +50,8 @@ let load = (maxId) => {
         }).join('');
       }
 
+      color = '#' + color.toUpperCase();
+
       colors[color] = colorName;
     });
 
